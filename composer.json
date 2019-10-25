@@ -1,0 +1,21 @@
+{
+    "name": "anthraxisbr/fastwork-patterns",
+    "authors": [
+        {
+            "name": "Gabriel Mourão",
+            "email": "gabrielmouraodemelo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AnthraxisBR\\FastWorkPatterns\\": "src/",
+            "tests\\" : "tests/"
+        },
+        "psr-0": {
+            "AnthraxisBR\\FastWorkPatterns\\": "src/",
+            "tests\\" : "tests/"
+        }
+    }
+}
